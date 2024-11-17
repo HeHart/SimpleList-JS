@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quicklist</title>
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="logo-container">
+        <header class="logo">
+            <figure>
+            <img src="assets/icons/Logo/Larkef x rareblocks.svg" alt="Logo minimalista composta por três barras horizontais e dois círculos em magenta, representando equilíbrio e conectividade.">
+            </figure>
+            <h1>quicklist</h1>
+        </header>
+    </div>
+        <section class="list-container">
+            <div class="back-icon-with-text">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </span>
+                    <span class="back-button">Voltar</span>
+                </a>
+            </div>
+            <form>
+                <h2><label for="item-input">Compras da semana</label></h2>
+                <div class="form-container">
+                    <input type="text" id="item-input" name="item-input" placeholder="Adicione um novo item">
+                    <button type="submit">Adicionar item</button>
+                </div>
+            </form>
+            <div class="list-content">
+                
+            </div>
+            <div class="removed-item hidden">
+                <span>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                O item foi removido da lista 
+                </span>
+                <button class="icon">
+                    <i class="fa-solid fa-x removed-alert-button"></i>
+                </button>
+            </div>
+        </section>
+
+    <script src="https://kit.fontawesome.com/4b529a21e1.js" crossorigin="anonymous"></script>
+    <script src="assets/javascript/js.js"></script>
+</body>
+</html>
